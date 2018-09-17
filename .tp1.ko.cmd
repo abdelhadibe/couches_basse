@@ -1,0 +1,1 @@
+cmd_/home/abdelhadi/Desktop/couches_basse/tp1.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/abdelhadi/Desktop/couches_basse/tp1.ko /home/abdelhadi/Desktop/couches_basse/tp1.o /home/abdelhadi/Desktop/couches_basse/tp1.mod.o ;  true
